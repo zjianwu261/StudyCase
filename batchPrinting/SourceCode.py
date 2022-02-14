@@ -1,6 +1,6 @@
 import os
 import xlwings as xw
-file_path=r'C:\Users\m4800\Desktop\excel' #给出文件所在的路径文件夹名称
+file_path=r'./WaitingForPrint' #给出文件所在的路径文件夹名称
 file_list=os.listdir(file_path)  #列出路径下所有文件和文件夹的名称
 app=xw.App(visible=False)
 #sheet_name='Invoice'
